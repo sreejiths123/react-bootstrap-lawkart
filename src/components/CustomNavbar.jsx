@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, NavItem,DropdownButton,MenuItem ,NavDropdown} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link ,withRouter} from 'react-router-dom';
 import './CustomNavbar.css'
+import auth0Client from './Auth';
 
-export default class CustomNavbar extends Component {
-  render() {
+function CustomNavbar(props) {
+	
+	
+  const signOut = () => {
+    auth0Client.signOut();
+    props.history.replace('/');
+  };
+
+ 
     return (
       <Navbar default collapseOnSelect>
         <Navbar.Header>
@@ -34,10 +42,24 @@ export default class CustomNavbar extends Component {
 			</NavDropdown>
 			<Navbar.Toggle />
             </NavItem>
+			<NavItem eventKey={5} >
+				{
+					!auth0Client.isAuthenticated() &&
+					<button className="btn btn-dark" onClick={auth0Client.signIn}>Sign In</button>
+				  }
+				  {
+					auth0Client.isAuthenticated() &&
+					<div>
+					  <label className="mr-2 text-white">{auth0Client.getProfile().name}</label>
+					  <button className="btn btn-dark" onClick={() => {signOut()}}>Sign Out</button>
+					</div>
+				  }
+			</NavItem>
           </Nav>
 
         </Navbar.Collapse>
       </Navbar>
     )
-  }
+  
 }
+export default withRouter(CustomNavbar);

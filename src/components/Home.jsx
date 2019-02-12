@@ -20,7 +20,7 @@ instently, get answer faster</p>
          
           <h2>SignUp and ask questions, For free</h2>
 		   <h4>if you want extra benefits please take our pramium sceme</h4>
-          <Link to="/signup">
+          <Link to="/new-question">
             <Button bsStyle="primary">Get Started</Button>
           </Link>
         </Jumbotron>
@@ -42,89 +42,89 @@ instently, get answer faster</p>
           </Col>
         </Row>
 		
-		<section class="home-services">
-    <div class="container">
-        <div class="section-heading">
+		<section className="home-services">
+    <div className="container">
+        <div className="section-heading">
             <h1>We are covering all leagal areas</h1>
             <p>if you want extra benefits please take our pramium sceme</p>
         </div>
-        <div class="row">
-            <div class="col-md-3 services-box">
+        <div className="row">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Leagal-service.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Leagal Service</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Civil-courts.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Civil Court</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Criminal-coart.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Criminal Court</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Banking-tribunal.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Banking Tribunals</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Motor-vehicle.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Motor Vehicle Tribunals</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Company-tribunals.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Company Tribunals</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Income-tax.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Income Tax Tribunals</h2>
                 </div>
                 </a>
             </div>
-            <div class="col-md-3 services-box">
+            <div className="col-md-3 services-box">
                 <a href="">
-                <div class="services-icon">
+                <div className="services-icon">
                     <img src="assets/services/Green-tribunals.png" alt=""/>
                 </div>
-                <div class="services-name">
+                <div className="services-name">
                     <h2>Green Tribunals</h2>
                 </div>
                 </a>
