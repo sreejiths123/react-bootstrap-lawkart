@@ -20,7 +20,7 @@ instently, get answer faster</p>
          
           <h2>SignUp and ask questions, For free</h2>
 		   <h4>if you want extra benefits please take our pramium sceme</h4>
-          <Link to="/new-question">
+          <Link to="/questions">
             <Button bsStyle="primary">Get Started</Button>
           </Link>
         </Jumbotron>
@@ -50,7 +50,7 @@ instently, get answer faster</p>
         </div>
         <div className="row">
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="/">
                 <div className="services-icon">
                     <img src="assets/services/Leagal-service.png" alt=""/>
                 </div>
@@ -60,7 +60,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Civil-courts.png" alt=""/>
                 </div>
@@ -70,7 +70,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Criminal-coart.png" alt=""/>
                 </div>
@@ -80,7 +80,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Banking-tribunal.png" alt=""/>
                 </div>
@@ -90,7 +90,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Motor-vehicle.png" alt=""/>
                 </div>
@@ -100,7 +100,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Company-tribunals.png" alt=""/>
                 </div>
@@ -110,7 +110,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Income-tax.png" alt=""/>
                 </div>
@@ -120,7 +120,7 @@ instently, get answer faster</p>
                 </a>
             </div>
             <div className="col-md-3 services-box">
-                <a href="">
+                <a href="#">
                 <div className="services-icon">
                     <img src="assets/services/Green-tribunals.png" alt=""/>
                 </div>

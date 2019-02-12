@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import auth0Client from './Auth';
 import axios from 'axios';
+import Questions from './Questions'
 
 class NewQuestion extends Component {
   constructor(props) {
@@ -79,6 +80,8 @@ class NewQuestion extends Component {
             </div>
           </div>
         </div>
+		
+		
       </div>
     )
   }
