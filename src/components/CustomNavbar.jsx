@@ -52,6 +52,9 @@ function CustomNavbar(props) {
 					<div>
 					  <label className="mr-2 text-white">{auth0Client.getProfile().name}</label>
 					  <button className="btn btn-dark" onClick={() => {signOut()}}>Sign Out</button>
+					  <NavItem eventKey={6} componentClass={Link} href="/admin" to="/admin">
+					    <button className="btn btn-dark" >Admin</button>
+					  </NavItem>	
 					</div>
 				  }
 			</NavItem>

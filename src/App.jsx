@@ -11,6 +11,7 @@ import SecuredRoute from './components/SecuredRoute';
 import NewQuestion from './components/NewQuestion';
 import Questions from './components/Questions';
 import MissingRoute from './components/MissingRoute'
+import Admin from './components/Admin'
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
 		  <SecuredRoute path='/new-question' component={NewQuestion} />
 		  <Route path="/signup" component={Signup} />
 		  <Route exact path='/callback' component={Callback}/>
+		  <Route exact path='/admin' component={Admin}/>
 		  <Route  component={MissingRoute}/>
 		 </Switch>
         </div>

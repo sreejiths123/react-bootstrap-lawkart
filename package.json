@@ -6,12 +6,16 @@
     "auth0-js": "^9.10.0",
     "axios": "^0.18.0",
     "lodash": "^4.17.11",
+    "material-ui": "^0.20.2",
+    "ra-data-fakerest": "^2.6.0",
+    "ra-data-simple-rest": "^2.7.1",
     "react": "^16.2.0",
+    "react-admin": "^2.7.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
+    "react-router": "^2.8.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "^2.1.5",
-    "react-router": "^2.8.1"
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
