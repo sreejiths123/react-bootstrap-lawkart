@@ -9,3 +9,13 @@ Authentication & Autherization :
 -------------------------------------
 
 https://github.com/zzrez/auth0-frontend
+
+
+Admin-React
+----------------------------------------
+
+https://github.com/marmelab/react-admin/tree/master/examples/demo
+
+https://github.com/marmelab/react-admin-demo
+
+https://marmelab.com/react-admin-demo/#/

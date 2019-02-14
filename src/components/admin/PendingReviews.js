@@ -14,7 +14,7 @@ import { translate } from 'react-admin';
 
 import CardIcon from './CardIcon';
 
-import StarRatingField from './reviews/StarRatingField';
+
 
 const styles = theme => ({
     main: {
@@ -94,12 +94,7 @@ const PendingReviews = ({
                             <Avatar />
                         )}
 
-                        <ListItemText
-                            primary={<StarRatingField record={record} />}
-                            secondary={record.comment}
-                            className={classes.listItemText}
-                            style={{ paddingRight: 0 }}
-                        />
+                       
                     </ListItem>
                 ))}
             </List>

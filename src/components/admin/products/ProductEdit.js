@@ -17,8 +17,7 @@ import {
 import withStyles from '@material-ui/core/styles/withStyles';
 import RichTextInput from 'ra-input-rich-text';
 
-import CustomerReferenceField from '../visitors/CustomerReferenceField';
-import StarRatingField from '../reviews/StarRatingField';
+import CustomerReferenceField from '../visitors/CustomerReferenceField'; 
 import Poster from './Poster';
 import { styles as createStyles } from './ProductCreate';
 
@@ -76,7 +75,7 @@ const ProductEdit = ({ classes, ...props }) => (
                     <Datagrid>
                         <DateField source="date" />
                         <CustomerReferenceField />
-                        <StarRatingField />
+                       
                         <TextField
                             source="comment"
                             cellClassName={classes.comment}
