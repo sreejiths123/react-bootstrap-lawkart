@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import FrequentlyAsked from './FrequentlyAsked';
+import Statistics from './Statistics';
+import Benefits from './Benefits';
+import Testimonials from './Testimonials';
+import Footer from './Footer';
+
 import './Home.css';
 import './css/style.css';
 
@@ -132,6 +138,17 @@ instently, get answer faster</p>
         </div>
     </div>
 </section>
+
+
+<FrequentlyAsked/>
+
+<Benefits/>
+
+<Statistics/>
+
+<Testimonials/>
+
+<Footer/>
       </Grid>
     )
   }
